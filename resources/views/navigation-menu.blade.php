@@ -22,6 +22,7 @@
                     <x-jet-nav-link href="{{ route('expenses.index') }}"
                         :active="request()->routeIs('expenses.index')">
                         {{ __('Meus Gastos') }}
+                        <!--teste-->
                     </x-jet-nav-link>
                 </div>
             </div>
